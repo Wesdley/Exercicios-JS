@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Começando no DOOM</title>
+
+    <style>
+        body {
+            padding: 50px auto;
+            background-color: blueviolet;
+            font-size: 20px;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Iniciando o <strong>dom</strong> da perda de paçiencia</h1>
+
+    <p>Aqui vai o resultado</p>
+    <p>Aprende ai ze o <strong>DOM</strong></p>
+
+    <div id="msg">Clica ai pé rapado</div>
+
+    <script>
+        //window.document.write(window.document.URL)
+       // var corpo = document.body.style.background = 'red'
+        var p1 = window.document.getElementsByTagName('p')[0]
+        p1.style.color = 'blue'
+        document.write(p1.innerText) //nao poe a tag que esta dentro ex o strong
+        document.write(p1.innerHTML) // pega o html inteiro inclusive as filhas do P
+        /* var d = window.document.getElementById('msg')
+        d.style.background = 'green'
+        d.innerText = 'piranha' */
+        
+
+
+
+    </script>
+
+</body>
+</html>

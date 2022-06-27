@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        body {
+            font: normal 20px Arial;
+        }
+
+    </style>
+</head>
+<body>
+<script>
+
+window.onload = function(){
+
+    /*
+
+       var nome = prompt('escreve seu nome ai ze ruela')
+
+       console.log('Ola meu doce e amado ' + nome + '!') // + e uma concatenação
+
+
+    var n1 = Number(prompt('Digite um numero ai ze: ')) // prompt sempre vai retornar uma string para o var
+    var n2 = Number(prompt('Digite um numero ai ze: ')) // parseInt vai converter o numero inteiro para uma variavel em numero :)
+    var soma = n1 + n2
+    alert(`A soma é ${soma}`)
+
+    // (number + number) e uma soma
+    //  (string + string) e uma concatenação
+
+
+
+    var nome = prompt('Seu nome é? ')
+    document.write(`seu nome é <strong>${nome}</strong> é ele tem ${nome.length} letras <br>`)
+    document.write(`Ola, ${nome} seu nome em maisculo é ${nome.toUpperCase()} <br>`)
+    document.write(`Seu nome em minusculo é ${nome.toLowerCase()}<br>`)
+
+    */
+   
+    //para ver o salario de acordo com o pais!
+    
+    n1 = 1500,00
+    console.log(n1.toLocaleString('pt-BR', {style:'currency', currency: 'BRL'}))
+    n2 = 2500,00
+    console.log(n2.toLocaleString('pt-BR', {style:'currency', currency: 'USD'}))
+    n3 = 9092,00
+    console.log(n3.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}))  
+}
+
+
+</script>
+
+    
+</body>
+</html>
