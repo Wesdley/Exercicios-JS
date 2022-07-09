@@ -7,12 +7,13 @@ function verificar() {
     if ( fano.value.length == 0 || Number(fano.value) > ano ) {
         window.alert ('[ERRO] Verifique os dados e tente novamente!')
     } else {
-        var fsex = document.getElementsByName('radsex')
+        var fsex = document.getElementsByName('radsex') 
         var idade = ano - Number(fano.value) // faz a conta do anos
         var genero = ''
         var img = document.createElement('img')  //criar o elemento <img> do html
         img.setAttribute('id', 'foto') //cria a id="foto" dentro do elemento <img> do html (Ex no html: <img id="foto">)
         if (fsex[0].checked) {
+            //2 input ou mais sao numerados com [0][1][2][3]
             //colocando as imagem para cada idade
             genero = '<strong> Homem </strong>'
                 if (idade >= 0 && idade < 10){
