@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html {
+    height: 100%;
+    background-color: brown;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    width: 500px;
+    padding: 10px;
+}
+
+label {
+    padding: 10px;
+}
+
+h1 {
+    padding: 100px;
+    text-align: center;
+}
+
+input {
+    outline: 0;
+    height: 25px;
+    padding-left: 10px;
+}
+
+input[type=button] {
+    width: 100px;
+    margin: auto;
+}
+
+.res {
+    padding-top: 20px;
+}
+
+footer {
+    text-align: center;
+    padding-top: 20px;
+}

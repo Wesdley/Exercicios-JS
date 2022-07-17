@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html {
+    height: 100%;
+    background-color: brown;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    width: 500px;
+    padding: 10px;
+}
+
+label {
+    padding: 10px;
+}
+
+h1 {
+    padding: 100px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+input {
+    width: 200px;
+    outline: 0;
+    height: 25px;
+    padding-left: 10px;
+    margin: auto;
+}
+
+input[type=button] {
+    width: 100px;
+    margin: 20px auto;
+    
+}
+
+footer {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.res {
+    width: 100%;
+}
